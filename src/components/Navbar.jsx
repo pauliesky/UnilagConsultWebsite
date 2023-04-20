@@ -2,6 +2,7 @@ import React from "react";
 import UCLogo from "../assets/UCLogo.png";
 import shareIcon from "../assets/share-alt-solid-24.png";
 import searchIcon from "../assets/search-alt-2-regular-24.png";
+import phoneIcon from "../assets/mobile-regular-24.png";
 
 function Navbar() {
   return (
@@ -17,10 +18,10 @@ function Navbar() {
           <div>Training Programmes</div>
           <div>Consultants</div>
           <div>Contact</div>
-          <div className="flex">
+          <div className="flex gap-2">
             <img alt="share" src={shareIcon}></img>
             <img alt="search" src={searchIcon}></img>
-            <img></img>
+            <img alt="phone" src={phoneIcon}></img>
           </div>
         </div>
       </div>
