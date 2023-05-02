@@ -3,6 +3,7 @@ import React from "react";
 import Navbar from "../Navbar";
 import Header from "./Header";
 import CarouSel from "./Carousel";
+import WelcomePage from "./WelcomePage";
 
 function Home() {
   return (
@@ -10,6 +11,7 @@ function Home() {
       <Navbar />
       <Header />
       <CarouSel />
+      <WelcomePage />
     </>
   );
 }

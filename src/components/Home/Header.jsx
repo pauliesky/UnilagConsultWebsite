@@ -1,5 +1,7 @@
 import React from "react";
 
+export const baseURL = "hello";
+
 function Header() {
   return (
     <>
